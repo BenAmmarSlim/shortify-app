@@ -20,10 +20,12 @@ To run the URL Shortener Web Application locally, follow these steps:
 
 2. Install dependencies for both frontend and backend:
 
-```cd shortify-server```
-```npm install```
-```cd shortify-ui```
-```npm install```
+```
+cd shortify-server
+npm install
+cd shortify-ui
+npm install
+```
 
 4. Set up environment variables:
 
@@ -38,40 +40,40 @@ To run the URL Shortener Web Application locally, follow these steps:
   ```
   VITE_APP_URI=your-shortify-server-uri
   ```
-  
+
 4. Start the development server:
 
--Shortify Server ```npm start```
--Shortify UI ```npm start```
+- Shortify Server ```npm start```
+- Shortify UI ```npm start```
 
-The URL Shortener Web Application will be running on `http://localhost:your-port-number`.
+The Shortify Web Application will be running on `http://localhost:your-port-number`.
 
 ## Usage
 
 1. Access the application at `http://localhost:your-port-number` in your web browser.
 2. Enter the long URL you want to shorten in the input field.
 3. Optionally, you can provide a custom short URL code for the link.
-4. Click the "Generate Shorten Link" button to generate the shortened version.
+4. Click the "Generate Short Link" button to generate the shortened version.
 5. The shortened URL will be displayed in the output field, and it will be automatically copied to your clipboard for
    easy sharing.
 
 ## Technologies Used
 
 - Frontend:
-- React
-- Chakra UI
-- React Router
-- Axios
+  - React
+  - Chakra UI
+  - React Router
+  - Axios
 
 - Backend:
-- Node.js
-- Express
-- MongoDB (via Mongoose)
+  - Node.js
+  - Express
+  - MongoDB (via Mongoose)
 
 ## Deployment
 
-- Backend: Deployed on [Render](https://render.com)
-- Frontend: Deployed on [Vercel](https://vercel.com)
+- Backend: Deployed on [Render](https://shortify-server.onrender.com)
+- Frontend: Deployed on [Vercel](https://shortify-ui-pi.vercel.app)
 
 ## Contributing
 
