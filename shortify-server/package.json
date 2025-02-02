@@ -1,0 +1,27 @@
+{
+  "name": "shortify-server",
+  "version": "1.0.0",
+  "description": "A simplified URL shortening service that generates short links redirecting to original URLs.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.13.1 <23.0.0",
+    "npm": ">=11.0.0 <12.0.0"
+  },
+  "scripts": {
+    "test": "jest --ci",
+    "start": "node src/server"
+  },
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^2.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.0",
+    "jest": "^29.7.0",
+    "mongoose": "^8.9.5",
+    "shortid": "^2.2.16",
+    "supertest": "^7.0.0",
+    "valid-url": "^1.0.9"
+  }
+}

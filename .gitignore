@@ -1,0 +1,57 @@
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build outputs (Backend & Frontend)
+dist/
+dist-ssr/
+out/
+.next/
+.cache/
+
+# Ignore local environment files (DO NOT COMMIT SECRETS)
+.env
+.env.*.local
+.env.local
+.env.development
+.env.production
+.env.test
+.env.example
+
+# Editor & OS-Specific Files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# Ignore Backend (`shortify-server/`)
+shortify-server/node_modules/
+shortify-server/dist/
+shortify-server/logs/
+shortify-server/.env
+shortify-server/.env.local
+shortify-server/.env.production
+shortify-server/.env.test
+
+# Ignore Frontend (`shortify-ui/`)
+shortify-ui/node_modules/
+shortify-ui/dist/
+shortify-ui/.next/
+shortify-ui/.cache/
+shortify-ui/.env
+shortify-ui/.env.local
+shortify-ui/.env.production
+shortify-ui/.env.test
